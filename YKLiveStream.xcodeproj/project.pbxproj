@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3675E813B88E77B6DA058533 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560B16F2F5A4F814BAE9395E /* Pods.framework */; };
+		673828E31DB4E6AA006E7858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828E21DB4E6AA006E7858 /* AppDelegate.swift */; };
+		673828E51DB4E6AA006E7858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828E41DB4E6AA006E7858 /* ViewController.swift */; };
+		673828E81DB4E6AA006E7858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673828E61DB4E6AA006E7858 /* Main.storyboard */; };
+		673828EA1DB4E6AA006E7858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673828E91DB4E6AA006E7858 /* Assets.xcassets */; };
+		673828ED1DB4E6AA006E7858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673828EB1DB4E6AA006E7858 /* LaunchScreen.storyboard */; };
+		673828F81DB4E759006E7858 /* YKCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828F51DB4E759006E7858 /* YKCreator.swift */; };
+		673828F91DB4E759006E7858 /* YKLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828F61DB4E759006E7858 /* YKLive.swift */; };
+		673828FA1DB4E759006E7858 /* YKLiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828F71DB4E759006E7858 /* YKLiveStream.swift */; };
+		673828FC1DB4E8B8006E7858 /* YKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828FB1DB4E8B8006E7858 /* YKCell.swift */; };
+		673828FE1DB4F385006E7858 /* LivesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673828FD1DB4F385006E7858 /* LivesTableViewController.swift */; };
+		673829001DB4F63C006E7858 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 673828FF1DB4F63C006E7858 /* Podfile */; };
+		673829021DB514DD006E7858 /* LiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673829011DB514DD006E7858 /* LiveTableViewCell.swift */; };
+		6776DFD51DB653F1005E9E3A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6776DFCF1DB653F1005E9E3A /* libbz2.tbd */; };
+		6776DFD61DB653F1005E9E3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6776DFD01DB653F1005E9E3A /* libz.tbd */; };
+		6776DFD71DB653F1005E9E3A /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6776DFD11DB653F1005E9E3A /* IJKMediaFramework.framework */; };
+		6776DFD81DB653F1005E9E3A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6776DFD21DB653F1005E9E3A /* libcrypto.a */; };
+		6776DFD91DB653F1005E9E3A /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6776DFD31DB653F1005E9E3A /* librtmp.a */; };
+		6776DFDA1DB653F1005E9E3A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6776DFD41DB653F1005E9E3A /* libssl.a */; };
+		6776DFE11DB67CD6005E9E3A /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6776DFE01DB67CD6005E9E3A /* DMHeartFlyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		560B16F2F5A4F814BAE9395E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FCF1A568ADCE8945F0E7B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		673828DF1DB4E6AA006E7858 /* YKLiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKLiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		673828E21DB4E6AA006E7858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		673828E41DB4E6AA006E7858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		673828E71DB4E6AA006E7858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		673828E91DB4E6AA006E7858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		673828EC1DB4E6AA006E7858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		673828EE1DB4E6AA006E7858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673828F51DB4E759006E7858 /* YKCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKCreator.swift; sourceTree = "<group>"; };
+		673828F61DB4E759006E7858 /* YKLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLive.swift; sourceTree = "<group>"; };
+		673828F71DB4E759006E7858 /* YKLiveStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLiveStream.swift; sourceTree = "<group>"; };
+		673828FB1DB4E8B8006E7858 /* YKCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YKCell.swift; path = ../../YKCell.swift; sourceTree = "<group>"; };
+		673828FD1DB4F385006E7858 /* LivesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivesTableViewController.swift; sourceTree = "<group>"; };
+		673828FF1DB4F63C006E7858 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		673829011DB514DD006E7858 /* LiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTableViewCell.swift; sourceTree = "<group>"; };
+		6776DFCF1DB653F1005E9E3A /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libbz2.tbd; sourceTree = "<group>"; };
+		6776DFD01DB653F1005E9E3A /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = libz.tbd; sourceTree = "<group>"; };
+		6776DFD11DB653F1005E9E3A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		6776DFD21DB653F1005E9E3A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		6776DFD31DB653F1005E9E3A /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		6776DFD41DB653F1005E9E3A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		6776DFDB1DB6540C005E9E3A /* YKLiveStream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKLiveStream-Bridging-Header.h"; sourceTree = "<group>"; };
+		6776DFDF1DB67CD6005E9E3A /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
+		6776DFE01DB67CD6005E9E3A /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		B891F5B4E929B263E9552B52 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		673828DC1DB4E6AA006E7858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3675E813B88E77B6DA058533 /* Pods.framework in Frameworks */,
+				6776DFD81DB653F1005E9E3A /* libcrypto.a in Frameworks */,
+				6776DFDA1DB653F1005E9E3A /* libssl.a in Frameworks */,
+				6776DFD91DB653F1005E9E3A /* librtmp.a in Frameworks */,
+				6776DFD61DB653F1005E9E3A /* libz.tbd in Frameworks */,
+				6776DFD51DB653F1005E9E3A /* libbz2.tbd in Frameworks */,
+				6776DFD71DB653F1005E9E3A /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		673828D61DB4E6AA006E7858 = {
+			isa = PBXGroup;
+			children = (
+				6776DFD11DB653F1005E9E3A /* IJKMediaFramework.framework */,
+				673828FF1DB4F63C006E7858 /* Podfile */,
+				673828E11DB4E6AA006E7858 /* YKLiveStream */,
+				6776DFDE1DB67CD5005E9E3A /* HeartFlyView-master */,
+				678647291DE5BB9A00C2517D /* Ku */,
+				673828E01DB4E6AA006E7858 /* Products */,
+				B09F1513B7712E5FB25124D4 /* Pods */,
+				FAB8FABD7C021C3D735B89DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		673828E01DB4E6AA006E7858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				673828DF1DB4E6AA006E7858 /* YKLiveStream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		673828E11DB4E6AA006E7858 /* YKLiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				673828F41DB4E759006E7858 /* Model */,
+				673828E21DB4E6AA006E7858 /* AppDelegate.swift */,
+				673828E41DB4E6AA006E7858 /* ViewController.swift */,
+				673828FD1DB4F385006E7858 /* LivesTableViewController.swift */,
+				673828E61DB4E6AA006E7858 /* Main.storyboard */,
+				673828E91DB4E6AA006E7858 /* Assets.xcassets */,
+				673828EB1DB4E6AA006E7858 /* LaunchScreen.storyboard */,
+				673828EE1DB4E6AA006E7858 /* Info.plist */,
+				6776DFDB1DB6540C005E9E3A /* YKLiveStream-Bridging-Header.h */,
+			);
+			path = YKLiveStream;
+			sourceTree = "<group>";
+		};
+		673828F41DB4E759006E7858 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				673828F51DB4E759006E7858 /* YKCreator.swift */,
+				673828FB1DB4E8B8006E7858 /* YKCell.swift */,
+				673828F61DB4E759006E7858 /* YKLive.swift */,
+				673828F71DB4E759006E7858 /* YKLiveStream.swift */,
+				673829011DB514DD006E7858 /* LiveTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6776DFDE1DB67CD5005E9E3A /* HeartFlyView-master */ = {
+			isa = PBXGroup;
+			children = (
+				6776DFDF1DB67CD6005E9E3A /* DMHeartFlyView.h */,
+				6776DFE01DB67CD6005E9E3A /* DMHeartFlyView.m */,
+			);
+			path = "HeartFlyView-master";
+			sourceTree = "<group>";
+		};
+		678647291DE5BB9A00C2517D /* Ku */ = {
+			isa = PBXGroup;
+			children = (
+				6776DFCF1DB653F1005E9E3A /* libbz2.tbd */,
+				6776DFD01DB653F1005E9E3A /* libz.tbd */,
+				6776DFD21DB653F1005E9E3A /* libcrypto.a */,
+				6776DFD31DB653F1005E9E3A /* librtmp.a */,
+				6776DFD41DB653F1005E9E3A /* libssl.a */,
+			);
+			name = Ku;
+			sourceTree = "<group>";
+		};
+		B09F1513B7712E5FB25124D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56FCF1A568ADCE8945F0E7B2 /* Pods.debug.xcconfig */,
+				B891F5B4E929B263E9552B52 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAB8FABD7C021C3D735B89DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560B16F2F5A4F814BAE9395E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		673828DE1DB4E6AA006E7858 /* YKLiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673828F11DB4E6AA006E7858 /* Build configuration list for PBXNativeTarget "YKLiveStream" */;
+			buildPhases = (
+				A7C7A5452342D295F9897B30 /* Check Pods Manifest.lock */,
+				673828DB1DB4E6AA006E7858 /* Sources */,
+				673828DC1DB4E6AA006E7858 /* Frameworks */,
+				673828DD1DB4E6AA006E7858 /* Resources */,
+				13C5CFD09B4412399F1701FB /* Embed Pods Frameworks */,
+				67AD8C858CF747C8A02525DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKLiveStream;
+			productName = YKLiveStream;
+			productReference = 673828DF1DB4E6AA006E7858 /* YKLiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		673828D71DB4E6AA006E7858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = irishsky;
+				TargetAttributes = {
+					673828DE1DB4E6AA006E7858 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 673828DA1DB4E6AA006E7858 /* Build configuration list for PBXProject "YKLiveStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 673828D61DB4E6AA006E7858;
+			productRefGroup = 673828E01DB4E6AA006E7858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673828DE1DB4E6AA006E7858 /* YKLiveStream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673828DD1DB4E6AA006E7858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673828ED1DB4E6AA006E7858 /* LaunchScreen.storyboard in Resources */,
+				673828EA1DB4E6AA006E7858 /* Assets.xcassets in Resources */,
+				673829001DB4F63C006E7858 /* Podfile in Resources */,
+				673828E81DB4E6AA006E7858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C5CFD09B4412399F1701FB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67AD8C858CF747C8A02525DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C7A5452342D295F9897B30 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		673828DB1DB4E6AA006E7858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673828E51DB4E6AA006E7858 /* ViewController.swift in Sources */,
+				673828F81DB4E759006E7858 /* YKCreator.swift in Sources */,
+				673828FA1DB4E759006E7858 /* YKLiveStream.swift in Sources */,
+				673828FC1DB4E8B8006E7858 /* YKCell.swift in Sources */,
+				673828FE1DB4F385006E7858 /* LivesTableViewController.swift in Sources */,
+				673829021DB514DD006E7858 /* LiveTableViewCell.swift in Sources */,
+				673828E31DB4E6AA006E7858 /* AppDelegate.swift in Sources */,
+				673828F91DB4E759006E7858 /* YKLive.swift in Sources */,
+				6776DFE11DB67CD6005E9E3A /* DMHeartFlyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		673828E61DB4E6AA006E7858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673828E71DB4E6AA006E7858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		673828EB1DB4E6AA006E7858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673828EC1DB4E6AA006E7858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		673828EF1DB4E6AA006E7858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		673828F01DB4E6AA006E7858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		673828F21DB4E6AA006E7858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FCF1A568ADCE8945F0E7B2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YKLiveStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bird.YKLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YKLiveStream/YKLiveStream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		673828F31DB4E6AA006E7858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B891F5B4E929B263E9552B52 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = YKLiveStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bird.YKLiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YKLiveStream/YKLiveStream-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		673828DA1DB4E6AA006E7858 /* Build configuration list for PBXProject "YKLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673828EF1DB4E6AA006E7858 /* Debug */,
+				673828F01DB4E6AA006E7858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673828F11DB4E6AA006E7858 /* Build configuration list for PBXNativeTarget "YKLiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673828F21DB4E6AA006E7858 /* Debug */,
+				673828F31DB4E6AA006E7858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 673828D71DB4E6AA006E7858 /* Project object */;
+}
